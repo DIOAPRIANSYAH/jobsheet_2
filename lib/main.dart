@@ -13,6 +13,7 @@ import 'package:jobsheet_2/characterDescription/wandererDescription.dart';
 import 'package:jobsheet_2/characterDescription/xiaoDescription.dart';
 import 'package:jobsheet_2/characterDescription/zhongliDescription.dart';
 import 'package:jobsheet_2/footer/footer.dart';
+import 'package:jobsheet_2/characterDescription/characterDescription.dart';
 
 void main() => runApp(const RowWidgetSample());
 
@@ -32,15 +33,7 @@ class RowWidgetSample extends StatelessWidget {
             listCharacter(),
             header1(),
             line(),
-            eiDescription(),
-            ventiDescription(),
-            tighnariDescription(),
-            kazuhaDescription(),
-            xiaoDescription(),
-            wandererDescription(),
-            zhongliDescription(),
-            nilouDescription(),
-            ayakaDescription(),
+            characterDescription(),
             footer(),
             Row(),
           ],

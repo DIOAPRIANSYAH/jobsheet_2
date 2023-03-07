@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class wandererDescription extends StatelessWidget {
-  const wandererDescription({super.key});
+class frame extends StatelessWidget {
+  const frame({super.key});
 
   @override
   Widget build(BuildContext context) {
